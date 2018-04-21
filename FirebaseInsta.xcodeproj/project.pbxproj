@@ -15,6 +15,7 @@
 		01AD3353208B9687004ED020 /* FirebaseInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD3352208B9687004ED020 /* FirebaseInstaUITests.swift */; };
 		01AD3366208B96EC004ED020 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AD3365208B96EC004ED020 /* Default-568h@2x.png */; };
 		01AD3368208B9863004ED020 /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD3367208B9863004ED020 /* LoginInViewController.swift */; };
+		01AD336B208BA09E004ED020 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD336A208BA09E004ED020 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		01AD3354208B9687004ED020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01AD3365208B96EC004ED020 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		01AD3367208B9863004ED020 /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
+		01AD336A208BA09E004ED020 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				01AD3365208B96EC004ED020 /* Default-568h@2x.png */,
 				01AD3331208B9686004ED020 /* FirebaseInsta */,
+				01AD3369208BA084004ED020 /* Utilities */,
 				01AD3364208B96C0004ED020 /* Resources */,
 				01AD3346208B9687004ED020 /* FirebaseInstaTests */,
 				01AD3351208B9687004ED020 /* FirebaseInstaUITests */,
@@ -166,6 +169,14 @@
 				01AD3339208B9687004ED020 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		01AD3369208BA084004ED020 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				01AD336A208BA09E004ED020 /* Extensions.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AD3333208B9686004ED020 /* AppDelegate.swift in Sources */,
+				01AD336B208BA09E004ED020 /* Extensions.swift in Sources */,
 				01AD3368208B9863004ED020 /* LoginInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
