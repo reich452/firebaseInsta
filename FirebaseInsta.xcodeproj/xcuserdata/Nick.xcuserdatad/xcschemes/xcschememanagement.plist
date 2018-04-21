@@ -7,7 +7,25 @@
 		<key>FirebaseInsta.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>01AD332E208B9686004ED020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01AD3342208B9687004ED020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01AD334D208B9687004ED020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
