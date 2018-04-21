@@ -16,6 +16,7 @@
 		01AD3366208B96EC004ED020 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AD3365208B96EC004ED020 /* Default-568h@2x.png */; };
 		01AD3368208B9863004ED020 /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD3367208B9863004ED020 /* LoginInViewController.swift */; };
 		01AD336B208BA09E004ED020 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD336A208BA09E004ED020 /* Extensions.swift */; };
+		01AD336D208BE64D004ED020 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01AD336C208BE64C004ED020 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		01AD3365208B96EC004ED020 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		01AD3367208B9863004ED020 /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
 		01AD336A208BA09E004ED020 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		01AD336C208BE64C004ED020 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			children = (
 				01AD3332208B9686004ED020 /* AppDelegate.swift */,
 				01AD333E208B9687004ED020 /* Info.plist */,
+				01AD336C208BE64C004ED020 /* GoogleService-Info.plist */,
 				01AD3339208B9687004ED020 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -285,6 +288,7 @@
 			files = (
 				01AD333D208B9687004ED020 /* LaunchScreen.storyboard in Resources */,
 				01AD3366208B96EC004ED020 /* Default-568h@2x.png in Resources */,
+				01AD336D208BE64D004ED020 /* GoogleService-Info.plist in Resources */,
 				01AD333A208B9687004ED020 /* Assets.xcassets in Resources */,
 				01AD3338208B9686004ED020 /* Main.storyboard in Resources */,
 			);
